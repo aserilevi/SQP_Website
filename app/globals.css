@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors (from midfi-system.jsx PM palette) */
+  --color-pm-navy: #1A2744;
+  --color-pm-navy-deep: #13192E;
+  --color-pm-navy-soft: #243254;
+  --color-pm-paper: #FAFAF8;
+  --color-pm-paper-warm: #F4F2EB;
+  --color-pm-teal: #2D7D7A;
+  --color-pm-teal-soft: #E8F0EF;
+  --color-pm-ink: #0F0F0F;
+  --color-pm-ink-70: #3A3A3A;
+  --color-pm-ink-50: #6B6B68;
+  --color-pm-ink-30: #A0A09C;
+  --color-pm-hair: #E5E5E0;
+  --color-pm-hair-dark: #2A3454;
+
+  /* Fonts */
+  --font-display: var(--font-instrument-serif);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+
+  /* Custom font sizes that map to the mock's scale */
+  --text-eyebrow: 11px;
+  --text-h1: 68px;
+  --text-h2: 44px;
+  --text-h3: 28px;
+  --text-h4: 18px;
+}
+
+html, body {
+  background: var(--color-pm-paper);
+  color: var(--color-pm-ink);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography helpers used across the site */
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-eyebrow);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-pm-teal);
+  font-weight: 500;
+  line-height: 1;
+}
+
+/* Markdown content rendering (state pages) */
+.prose-pm {
+  font-family: var(--font-sans);
+  color: var(--color-pm-ink-70);
+}
+.prose-pm h1 {
+  font-family: var(--font-display);
+  font-size: 56px;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  color: var(--color-pm-ink);
+  font-weight: 400;
+  margin: 0 0 24px;
+}
+.prose-pm h2 {
+  font-family: var(--font-display);
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--color-pm-ink);
+  font-weight: 400;
+  margin: 64px 0 20px;
+}
+.prose-pm h3 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--color-pm-ink);
+  font-weight: 400;
+  margin: 40px 0 16px;
+}
+.prose-pm p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+.prose-pm strong {
+  color: var(--color-pm-ink);
+  font-weight: 600;
+}
+.prose-pm ul, .prose-pm ol {
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0 0 24px;
+  padding-left: 24px;
+}
+.prose-pm li {
+  margin-bottom: 12px;
+}
+.prose-pm hr {
+  border: 0;
+  border-top: 1px solid var(--color-pm-hair);
+  margin: 56px 0;
+}
+.prose-pm code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-pm-hair);
+  padding: 2px 6px;
+}
