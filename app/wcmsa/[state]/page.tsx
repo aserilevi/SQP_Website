@@ -53,9 +53,7 @@ export default async function StatePage({ params }: PageProps) {
               {" / "}
               <span className="text-pm-ink">{row.state}</span>
             </nav>
-            <Eyebrow className="mb-4">
-              WCMSA · {row.state} · Hand-written
-            </Eyebrow>
+            <Eyebrow className="mb-4">WCMSA · {row.state}</Eyebrow>
             <div
               className="prose-pm"
               dangerouslySetInnerHTML={{ __html: doc.html }}
