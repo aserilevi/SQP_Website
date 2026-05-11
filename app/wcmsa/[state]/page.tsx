@@ -79,12 +79,10 @@ export default async function StatePage({ params }: PageProps) {
           </nav>
           <Eyebrow className="mb-4">WCMSA · {row.state}</Eyebrow>
           <h1 className="font-display text-5xl md:text-[68px] leading-[1.04] max-w-[1080px]" style={{ letterSpacing: "-0.02em" }}>
-            Workers&apos; Comp Medicare Set-Asides for {row.state} files, in seven business days.
+            {`Workers' Comp Medicare Set-Asides for ${row.state} files, in seven business days.`}
           </h1>
           <p className="mt-7 max-w-[760px] text-[18px] leading-relaxed text-pm-ink-70">
-            Reports keyed to the {row.fee_schedule_short} and the procedural realities of{" "}
-            {row.settlement_approval_agency_short || row.settlement_approval_agency_full}. Triage
-            call within one business day.
+            {`Reports keyed to the ${row.fee_schedule_short} and the procedural realities of ${row.settlement_approval_agency_short || row.settlement_approval_agency_full}. Triage call within one business day.`}
           </p>
         </div>
       </section>
@@ -92,19 +90,13 @@ export default async function StatePage({ params }: PageProps) {
       <section className="px-10 lg:px-20 py-16 border-b border-pm-hair">
         <div className="mx-auto max-w-[860px]">
           <h2 className="font-display text-[36px] leading-tight mb-6">
-            How {row.state} workers&apos; comp shapes the WCMSA
+            {`How ${row.state} workers' comp shapes the WCMSA`}
           </h2>
           <p className="text-[17px] text-pm-ink-70 leading-relaxed mb-5">
-            {row.state} pricing follows the {row.fee_schedule_full}, administered by{" "}
-            {row.fee_schedule_agency}. Pharmacy reimbursement: {row.pharmacy_basis}. Settlement
-            of accepted future medical runs through {row.settlement_approval_agency_full}.{" "}
-            {row.settlement_approval_quirk}
+            {`${row.state} pricing follows the ${row.fee_schedule_full}, administered by ${row.fee_schedule_agency}. Pharmacy reimbursement: ${row.pharmacy_basis}. Settlement of accepted future medical runs through ${row.settlement_approval_agency_full}. ${row.settlement_approval_quirk}`}
           </p>
           <p className="text-[17px] text-pm-ink-70 leading-relaxed">
-            The general Medicare Regional Office for {row.state} is the CMS{" "}
-            {row.cms_regional_office} Regional Office. WCMSA submissions, regardless of state, go
-            through the CMS Workers&apos; Compensation Review Contractor and are approved by CMS
-            itself. The Regional Office handles broader Medicare program operations.
+            {`The general Medicare Regional Office for ${row.state} is the CMS ${row.cms_regional_office} Regional Office. WCMSA submissions, regardless of state, go through the CMS Workers' Compensation Review Contractor and are approved by CMS itself. The Regional Office handles broader Medicare program operations.`}
           </p>
         </div>
       </section>
@@ -136,8 +128,7 @@ export default async function StatePage({ params }: PageProps) {
           <div className="mx-auto max-w-[860px]">
             <Eyebrow className="mb-3">Major metros</Eyebrow>
             <p className="text-[15px] text-pm-ink-70">
-              We work {row.state} files originating in {metros(row).join(", ")} and elsewhere in
-              the state.
+              {`We work ${row.state} files originating in ${metros(row).join(", ")} and elsewhere in the state.`}
             </p>
           </div>
         </section>
