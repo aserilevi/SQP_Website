@@ -19,10 +19,6 @@ const PRINCIPLES: Array<[string, string]> = [
     "Same analysis, same citations, same standards whether the order came from defense, plaintiff, a carrier, a lifecare planner, or a structured-settlement professional. The report has to read cleanly to whoever sits on the other side of the table.",
   ],
   [
-    "No public pricing.",
-    "Pricing is set at intake, based on the file profile. We do not publish dollar amounts because the work scales with the file, and a published number on a hard case misleads.",
-  ],
-  [
     "Jurisdiction matters.",
     "Fee schedules, pharmacy rules, settlement-approval procedures, and procedural quirks vary state by state. We carry that variation through every line of every report.",
   ],
@@ -79,7 +75,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-[1280px]">
           <Eyebrow className="mb-4">Principles</Eyebrow>
           <h2 className="font-display text-4xl md:text-[44px] leading-[1.08] max-w-[820px] mb-14" style={{ letterSpacing: "-0.015em" }}>
-            Five operating principles, in order of importance.
+            Four operating principles, in order of importance.
           </h2>
           <div className="border-t-[1.5px] border-pm-ink">
             {PRINCIPLES.map(([title, body], i) => (
