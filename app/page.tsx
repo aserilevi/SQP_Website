@@ -31,8 +31,8 @@ const PILLARS: Array<[string, string, string]> = [
   ],
   [
     "03",
-    "Audience-neutral",
-    "Same analysis, same citations, same standards regardless of who orders. Defense, plaintiff, carrier, lifecare planner, structured-settlement professional.",
+    "Engagement-tailored",
+    "Narrative emphasis, add-on selection, and submission posture flex to fit the file and the requesting party. The projection methodology stays constant so the report holds up under review.",
   ],
   [
     "04",

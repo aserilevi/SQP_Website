@@ -15,8 +15,8 @@ const PRINCIPLES: Array<[string, string]> = [
     "No paralegal-drafted reports. No external review panels. The credentialed clinician whose name appears on the report is the one who read every page of the medical record.",
   ],
   [
-    "Audience-neutral methodology.",
-    "Same analysis, same citations, same standards whether the order came from defense, plaintiff, a carrier, a lifecare planner, or a structured-settlement professional. The report has to read cleanly to whoever sits on the other side of the table.",
+    "Engagement shaped to the file.",
+    "Narrative emphasis, add-on selection (credentialed-allocator review, CMS submission filing, rush turnaround), and submission posture flex to fit the file and the settlement strategy. The projection methodology stays constant so the report holds up under review.",
   ],
   [
     "Jurisdiction matters.",
@@ -37,7 +37,7 @@ export default function AboutPage() {
           </h1>
           <p className="mt-8 max-w-[780px] text-[18px] leading-relaxed text-pm-ink-70">
             Project Medical is a clinician-authored Workers&apos; Comp Medicare Set-Aside service.
-            We deliver one product, in seven business days, audience-neutral, with the
+            One product, seven business days, with the engagement shaped to the file and the
             methodology written into every engagement letter.
           </p>
         </div>
@@ -62,9 +62,11 @@ export default function AboutPage() {
               Every WCMSA is authored and signed by a credentialed clinician on staff.
             </p>
             <p>
-              We work for any party with a valid interest in the file: carriers, defense counsel,
-              plaintiff counsel, lifecare planners, structured settlement professionals. The
-              methodology does not change with the requesting party.
+              Our buyers sit across the WC settlement table: carriers, defense counsel,
+              plaintiff counsel, lifecare planners, structured settlement professionals. We shape
+              each engagement to the file and the requestor (narrative emphasis, add-on selection,
+              submission posture) while keeping the projection methodology constant, so the report
+              holds up under review.
             </p>
           </div>
         </div>

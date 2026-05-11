@@ -83,7 +83,7 @@ The medical projection methodology is consistent, but the procedural posture dif
 WCMSA proposals from Ohio are reviewed by the CMS Workers' Compensation Review Contractor (currently Capitol Bridge LLC) and approved by CMS. The CMS Chicago Regional Office handles general Medicare program functions for Ohio but is not the entity that issues WCMSA approvals.
 
 **Does Project Medical work Ohio files for both defense and plaintiff?**
-Yes. We work for any party with a valid interest in the file: carriers, defense counsel, plaintiff counsel, lifecare planners, structured settlement professionals. The methodology does not change with the requesting party; the report has to read cleanly to whoever is on the other side of the table.
+Yes. The engagement adjusts to the requesting party: narrative emphasis, add-on selection (credentialed-allocator review, CMS submission filing, rush turnaround), and submission posture all flex to fit the file and the settlement strategy. We work with carriers, defense counsel, plaintiff counsel, lifecare planners, and structured settlement professionals; the projection methodology stays constant so the report holds up under review.
 
 **How fast can we expect an Ohio report?**
 Seven business days from records intake, which begins after the engagement letter is signed and records flow through Project Medical's secure channel. The commitment is written into the engagement letter. Rush turnaround, credentialed-allocator review, and CMS submission filing are available as add-ons selected at intake.
